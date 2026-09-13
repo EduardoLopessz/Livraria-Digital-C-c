@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Início | Livraria Café com Chá</title>
+  <meta name="description" content="Livraria Café com Chá — livros e bebidas quentes no mesmo balcão. Confira os mais vendidos e as recomendações da casa.">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <div class="cabecalho__conteudo">
+      <a class="logo" href="index.html">
+        <span class="logo__icone" aria-hidden="true">📚</span>
+        <span class="logo__texto">
+          <strong>Livraria</strong>
+          Café com Chá
+        </span>
+      </a>
+
+      <nav class="menu" aria-label="Navegação principal">
+        <a href="index.html" class="menu__ativo" aria-current="page">Início</a>
+        <a href="best-sellers.html">Mais Vendidos</a>
+        <a href="recomendacoes.html">Recomendações da Casa</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ======================= HERO ======================= -->
+    <section class="hero">
+      <p class="hero__etiqueta">Desde 2012</p>
+      <h1 class="hero__titulo">Livros e Bebidas Quentes no Mesmo Balcão</h1>
+      <p class="hero__texto">
+        Um cantinho para ler devagar: estantes de livraria com o cheiro de
+        café e chá recém-servidos, aberto todos os dias da semana.
+      </p>
+
+      <ul class="hero__numeros">
+        <li>
+          <strong>12</strong>
+          <span>Anos de casa</span>
+        </li>
+        <li>
+          <strong>3.400+</strong>
+          <span>Títulos no acervo</span>
+        </li>
+        <li>
+          <strong>28</strong>
+          <span>Bebidas no cardápio</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ======================= DESTAQUES ======================= -->
+    <section class="podio" aria-labelledby="titulo-destaques">
+      <h2 id="titulo-destaques" class="secao__titulo">Comece por aqui</h2>
+      <p class="secao__subtitulo">
+        Duas vitrines para explorar o acervo: o que mais sai da loja e o que a
+        equipe escolheu a dedo.
+      </p>
+
+      <div class="podio__lista">
+        <article class="destaque">
+          <span class="selo">Ranking do mês</span>
+          <h3 class="destaque__titulo">Mais Vendidos</h3>
+          <p class="destaque__autor">Os dez títulos que mais saíram das prateleiras em setembro.</p>
+          <a class="botao" href="best-sellers.html">Ver o ranking</a>
+        </article>
+
+        <article class="destaque destaque--ouro">
+          <span class="destaque__posicao" aria-hidden="true">☕</span>
+          <span class="selo">Escolhas da equipe</span>
+          <h3 class="destaque__titulo">Recomendações da Casa</h3>
+          <p class="destaque__autor">Livros indicados por quem trabalha aqui, cada um com uma bebida sugerida.</p>
+          <a class="botao" href="recomendacoes.html">Ver recomendações</a>
+        </article>
+
+        <article class="destaque">
+          <span class="selo">Toda quinta</span>
+          <h3 class="destaque__titulo">Clube de Leitura</h3>
+          <p class="destaque__autor">Encontros gratuitos na mesa grande do fundo, com discussão e chá à vontade.</p>
+          <a class="botao" href="recomendacoes.html#titulo-clube">Ver agenda</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==================== CHAMADA FINAL ==================== -->
+    <section class="chamada">
+      <h2>Visite a loja</h2>
+      <p>
+        Rua das Acácias, 128 — Centro. Aberto de terça a domingo, das 9h às
+        21h, com mesas para ler à vontade.
+      </p>
+      <a class="botao botao--claro" href="recomendacoes.html">Ver as Recomendações da Casa</a>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <div class="rodape__conteudo">
+      <div class="rodape__bloco">
+        <h3>Livraria Café com Chá</h3>
+        <p>Rua das Acácias, 128 — Centro<br>Aberto de terça a domingo, das 9h às 21h.</p>
+      </div>
+      <div class="rodape__bloco">
+        <h3>Navegação</h3>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="best-sellers.html">Mais Vendidos</a></li>
+          <li><a href="recomendacoes.html">Recomendações da Casa</a></li>
+        </ul>
+      </div>
+      <div class="rodape__bloco">
+        <h3>Contato</h3>
+        <p>contato@cafecomcha.com.br<br>(11) 4002-8922</p>
+      </div>
+    </div>
+    <p class="rodape__creditos">
+      Projeto acadêmico da disciplina de Desenvolvimento Front-end — feito só com HTML e CSS.
+    </p>
+  </footer>
+
+</body>
+</html>

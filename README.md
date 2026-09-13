@@ -22,7 +22,7 @@ Aplicar na prática os conteúdos de HTML semântico e CSS:
 
 ```
 Livraria-Cafe-com-Cha/
-├── index.html              # Home  (responsável: colega de equipe)
+├── index.html              # Home
 ├── best-sellers.html       # Mais vendidos
 ├── recomendacoes.html      # Recomendações da Casa
 ├── css/
@@ -41,7 +41,7 @@ facilitar encontrar e editar uma parte sem mexer nas outras.
 
 | Página | Arquivo HTML | Responsável |
 | --- | --- | --- |
-| Home | `index.html` | Colega de equipe |
+| Home | `index.html` | Eduardo Lopes |
 | Mais Vendidos | `best-sellers.html` | Eduardo Lopes |
 | Recomendações da Casa | `recomendacoes.html` | Eduardo Lopes |
 
@@ -93,10 +93,6 @@ depender de internet).
 
 Na página em que o link estiver ativo, adicione `class="menu__ativo"` a ele
 (ex.: `<a href="index.html" class="menu__ativo">Início</a>` na home).
-
-> ⚠️ Para a home entrar no mesmo padrão, o `<head>` de `index.html` também
-> precisa carregar o CSS único do projeto:
-> `<link rel="stylesheet" href="css/estilo.css">`
 
 ---
 
